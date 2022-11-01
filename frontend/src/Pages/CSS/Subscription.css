@@ -1,0 +1,48 @@
+.main_Outer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(245, 237, 226);
+}
+.main_Outer h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.main_Outer h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.plans_outer>div{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+  background-color: tomato;
+  color: white;
+}
+.subscription_offers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscription_offers>div{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.plans_outer span{
+    font-size: 1.1rem;
+    font-weight: 500px;
+    font-style: italic;
+}
+.main_price{
+    font-size: 1.2rem;
+    font-weight: 600;
+}

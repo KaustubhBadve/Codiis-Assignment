@@ -1,0 +1,78 @@
+.table::-webkit-scrollbar {
+    display: none;
+    }
+.table{
+    overflow: scroll;
+}  
+.B{
+    background-image: url("https://wallpaperaccess.com/full/2314983.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: 100vw 100vh !important;
+}
+
+@media (max-width:998px){
+    .main{
+        height: auto !important;
+    }
+    .searchbar{
+       width: 100vw !important;
+       margin: 10px !important;
+    }
+    .searchbar button{
+       width: 5rem;
+    }
+    .searchbar input{
+        width: 10rem;
+    }
+    .pagination{
+        width: 100%
+    }
+    .pagination button{
+        width: 1rem;
+    }
+    .tablefilter{
+        flex-direction: column;
+        padding: 0!important;
+        margin: 20px;
+        gap: 30px !important;
+    }
+    .filterOuter{
+        width: 100vw !important;
+        height: auto !important;
+    }
+    .outerFilter{
+        display: flex;
+        align-items: center !important;
+        width: 100vw !important;
+        justify-content: space-evenly;
+        height: auto !important;
+    }
+    .outerFilter button{
+        width: 8rem;
+        font-size: 80%;
+    }
+    .table{
+        width: 95vw !important; 
+    }
+}
+
+@media (max-width:498px){
+    .tablefilter{
+        margin: 15px;   
+        gap: 30px !important;
+    }
+    .filterOuter{
+        width: 95vw !important;
+        padding: 3px;
+        height: auto !important;
+    }
+    .outerFilter{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .outerFilter button{
+        width: 5rem;
+        font-size: 80%
+    }
+}
